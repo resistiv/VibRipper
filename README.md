@@ -11,6 +11,9 @@ Passing `r` allows a user to **r**epack a PAK file from a directory. Optionally,
 
 Passing `h` displays a basic **h**elp message for the user.
 
+## Format
+A format description can be found on [KNFE's wiki](https://github.com/resistiv/KNFE/wiki/Vib-Ribbon-PAK).
+
 ## Remarks
 I created a similar program to this one some months ago at the request of a Twitter user who reached out to me. However, there was the particular problem that some PAK files don't follow a constant ruleset when sorting their file names in the table of contents. This caused inconsistent and incompatible results. So, I created the basic text TOC file to preserve the order of contents when repacking. While this solution is a bit clunky, I found it was most effective instead of trying to hardcode bizarre rules for certain directories.
 
