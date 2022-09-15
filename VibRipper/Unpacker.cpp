@@ -168,7 +168,7 @@ int Unpacker::CreateDir(std::filesystem::path &dir)
     {
         std::filesystem::create_directories(dir);
     }
-    catch (std::filesystem::filesystem_error err)
+    catch (std::filesystem::filesystem_error &err)
     {
         std::cerr << "[U] Failed to create output directory with path '" << dir << "':" << std::endl;
         std::cerr << "[U] " << err.code() << ": " << err.what() << std::endl;

@@ -208,7 +208,7 @@ int Repacker::ReadDirectory(std::filesystem::path &dir)
 
 	// Traverse the directory
 	std::filesystem::recursive_directory_iterator inDir(dir);
-	for (const std::filesystem::directory_entry dir_entry : inDir)
+	for (const std::filesystem::directory_entry &dir_entry : inDir)
 	{
 		// Only add files
 		if (!dir_entry.is_directory())
