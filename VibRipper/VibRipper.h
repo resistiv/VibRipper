@@ -16,7 +16,7 @@ constexpr std::string_view PROGRAM = "VibRipper";
 const int MAJORVER = 1;
 const int MINORVER = 1;
 const std::string VERSION = std::to_string(MAJORVER) + "." + std::to_string(MINORVER);
-constexpr std::string_view AUTHOR = "Resistiv";
+constexpr std::string_view AUTHOR = "ResistivKai";
 constexpr std::string_view USAGE = "{ u <pakfile> [outdir] | r <indir> [tocfile] }";
 const std::vector<std::string_view> OPTIONS =
 {
