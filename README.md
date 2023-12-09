@@ -5,11 +5,11 @@ The focus of this program was to create an accurate yet flexible PAK handler for
 ## Usage
 ``VibRipper { u <pakfile> [outdir] | r <indir> [tocfile] }``
 
-Passing `u` allows a user to **u**npack a PAK file. Optionally, a user can define an output directory of their choosing. If not, the program will create its own within the same directory as the PAK file with ``_out`` appended. In either case, the program will also create a ``_TOC.txt`` file within the same directory as the PAK file, which describes the original **t**able **o**f **c**ontents structure of the PAK file, which can later be used for accurate repacking.
+Passing `u` allows a user to <ins>u</ins>npack a PAK file. Optionally, a user can define an output directory of their choosing. If not, the program will create its own within the same directory as the PAK file with ``_out`` appended. In either case, the program will also create a ``_TOC.txt`` file within the same directory as the PAK file, which describes the original <ins>t</ins>able <ins>o</ins>f <ins>c</ins>ontents structure of the PAK file, which can later be used for accurate repacking.
 
-Passing `r` allows a user to **r**epack a PAK file from a directory. Optionally, a user can define a TOC file (``_TOC.txt`` file) to repack the directory with, maintaining the original PAK structure and PAK file name. If not provided with a TOC file, the program will repack the directory based on your OS's filesystem rules into its parent directory with ``.PAK`` appended.
+Passing `r` allows a user to <ins>r</ins>epack a PAK file from a directory. Optionally, a user can define a TOC file (``_TOC.txt`` file) to repack the directory with, maintaining the original PAK structure and PAK file name. If not provided with a TOC file, the program will repack the directory based on your OS's filesystem rules into its parent directory with ``.PAK`` appended.
 
-Passing `h` displays a basic **h**elp message for the user.
+Passing `h` displays a basic <ins>h</ins>elp message for the user.
 
 ## Format
 A format description can be found on [KNFE's wiki](https://github.com/resistiv/KNFE/wiki/Vib-Ribbon-PAK).
