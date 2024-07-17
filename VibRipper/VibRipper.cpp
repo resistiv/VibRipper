@@ -8,6 +8,7 @@
 /* ------------------------------------------------ */
 
 #include <iostream>
+#include <algorithm>
 #include "Repacker.h"
 #include "Unpacker.h"
 #include "VibRipper.h"

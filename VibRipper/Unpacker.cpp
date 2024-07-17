@@ -7,6 +7,7 @@
 /* GitHub: resistiv                                 */
 /* ------------------------------------------------ */
 
+#include <algorithm>
 #include "Unpacker.h"
 #include "VibRipper.h"
 
